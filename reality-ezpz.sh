@@ -44,7 +44,7 @@ image[nginx]="nginx:1.27.5"
 image[certbot]="certbot/certbot:v4.0.0"
 image[haproxy]="haproxy:3.1.7"
 image[python]="python:3.13-alpine"
-image[wgcf]="virb3/wgcf:2.2.26"
+image[wgcf]="virb3/wgcf:latest"
 
 defaults[transport]=tcp
 defaults[domain]=www.google.com
